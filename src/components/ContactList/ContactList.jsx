@@ -17,9 +17,9 @@ export const ContactList = () => {
     name.toLowerCase().includes(normalizedFilter)
   );
 
-  useEffect(() => {
-    dispatch(fetchContacts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchContacts());
+  // }, [dispatch]);
 
   return (
     <ul className={css.contactList}>
